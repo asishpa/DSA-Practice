@@ -32,12 +32,9 @@ public class SortCharactersByFrequency {
 			this.ch = ch;
 		}
 	}
-
 	public static void main(String[] args) {
         String s = "tree";
-
         List<Character> result = frequencySort(s);
-
         System.out.println(result);
 
 	}
